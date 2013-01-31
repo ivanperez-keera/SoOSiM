@@ -31,6 +31,8 @@ Library
   HS-Source-Dirs:   src
 
   Exposed-modules:  SoOSiM,
+                    SoOSiM.Simulator,
+                    SoOSiM.Simulator.Util,
                     SoOSiM.Types
 
   ghc-options:      -Wall
@@ -44,8 +46,6 @@ Library
                     transformers      >= 0.3.0.0
 
   Other-modules:    SoOSiM.SimMonad,
-                    SoOSiM.Simulator,
-                    SoOSiM.Simulator.Util,
                     SoOSiM.Util
 
 source-repository head
